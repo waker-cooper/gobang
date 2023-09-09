@@ -1,0 +1,115 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+BOARD_OFFSET_X	declare.h	/^#define BOARD_OFFSET_X /;"	d
+BOARD_OFFSET_Y	declare.h	/^#define BOARD_OFFSET_Y /;"	d
+CC	Makefile	/^CC=gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS= -O2$/;"	m
+CHECKED	declare.h	/^#define CHECKED /;"	d
+CHESSBOARD_H	chessboard.h	/^#define CHESSBOARD_H$/;"	d
+CLEAN	declare.h	/^#define CLEAN /;"	d
+Coordinate	declare.h	/^typedef struct Coordinate{$/;"	s
+DECLEAR_H	declare.h	/^#define DECLEAR_H$/;"	d
+DIRECTION_KEY	declare.h	/^#define DIRECTION_KEY /;"	d
+DIRECTION_KEY	player.h	/^#define DIRECTION_KEY /;"	d
+DOWN	declare.h	/^#define DOWN /;"	d
+Gobang	declare.h	/^typedef struct Gobang{$/;"	s
+HCW	player.c	/^struct HCW{$/;"	s	file:
+LEFT	declare.h	/^#define LEFT /;"	d
+LEN	declare.h	/^#define LEN /;"	d
+P1_FINAL_KEY	player.h	/^#define P1_FINAL_KEY /;"	d
+P2_FINAL_KEY	player.h	/^#define P2_FINAL_KEY /;"	d
+PIECE_LIST_MAX_SIZE	declare.h	/^#define PIECE_LIST_MAX_SIZE /;"	d
+PLAYER1	player.h	/^#define PLAYER1 /;"	d
+PLAYER2	player.h	/^#define PLAYER2 /;"	d
+PLAYER_H	player.h	/^#define PLAYER_H$/;"	d
+Piece_list	declare.h	/^typedef struct Piece_list{$/;"	s
+QUIT_KEY	player.h	/^#define QUIT_KEY /;"	d
+REFEREE_H	referee.h	/^#define REFEREE_H$/;"	d
+RIGHT	declare.h	/^#define RIGHT /;"	d
+ROW	declare.h	/^#define ROW /;"	d
+UP	declare.h	/^#define UP /;"	d
+X_MAX	declare.h	/^#define X_MAX /;"	d
+X_MIN	declare.h	/^#define X_MIN /;"	d
+Y_MAX	declare.h	/^#define Y_MAX /;"	d
+Y_MIN	declare.h	/^#define Y_MIN /;"	d
+a4	player.c	/^hcw a4(int a,int d){$/;"	f	typeref:typename:hcw
+ai_drop	player.c	/^void ai_drop(){$/;"	f	typeref:typename:void
+all	Makefile	/^all:gobang$/;"	t
+calculate_coor	player.c	/^coordinate calculate_coor(){$/;"	f	typeref:typename:coordinate
+chessboard.o	Makefile	/^chessboard.o : chessboard.c$/;"	t
+chessboard_tag	declare.h	/^	int chessboard_tag[ROW][LEN];$/;"	m	struct:Gobang	typeref:typename:int[][]
+clean	Makefile	/^clean:$/;"	t
+coor	declare.h	/^	coordinate coor;$/;"	m	struct:Piece_list	typeref:typename:coordinate
+coor	player.c	/^	coordinate coor;$/;"	m	struct:HCW	typeref:typename:coordinate	file:
+coordinate	declare.h	/^} coordinate;$/;"	t	typeref:struct:Coordinate
+ctler	main.c	/^int ctler(int player){$/;"	f	typeref:typename:int
+ctler2	main.c	/^int ctler2(int player){$/;"	f	typeref:typename:int
+ctler3	main.c	/^int ctler3(int player){$/;"	f	typeref:typename:int
+cur_coor	chessboard.c	/^coordinate cur_coor;$/;"	v	typeref:typename:coordinate
+cur_player	player.c	/^int cur_player=0; $/;"	v	typeref:typename:int
+disable_terminal_return	chessboard.c	/^void  disable_terminal_return( void )$/;"	f	typeref:typename:void
+draw_chessboard	chessboard.c	/^void draw_chessboard(){$/;"	f	typeref:typename:void
+drop	player.c	/^void drop(){$/;"	f	typeref:typename:void
+finish	chessboard.c	/^void finish(){$/;"	f	typeref:typename:void
+get_chessboard_tag	chessboard.c	/^int get_chessboard_tag(int x,int y){$/;"	f	typeref:typename:int
+gobang	Makefile	/^gobang : main.o chessboard.o player.o referee.o$/;"	t
+gobang	declare.h	/^}gobang;$/;"	t	typeref:struct:Gobang
+gobang_board	chessboard.c	/^gobang gobang_board;$/;"	v	typeref:typename:gobang
+gotoxy	declare.h	/^#define gotoxy(/;"	d
+h_find	player.c	/^int h_find(struct restriant r1,struct restriant r2,hcw* h){$/;"	f	typeref:typename:int
+h_get_final_coor	player.c	/^coordinate h_get_final_coor(coordinate s,coordinate e,int d){$/;"	f	typeref:typename:coordinate
+hcw	player.c	/^typedef struct HCW hcw;$/;"	t	typeref:struct:HCW	file:
+hit	player.c	/^	int hit;$/;"	m	struct:HCW	typeref:typename:int	file:
+horizontal	referee.c	/^	enum test_direction {horizontal,vertical,left_oblique,right_oblique};$/;"	e	enum:win_test::test_direction	file:
+horizontal_test	referee.c	/^void horizontal_test(){$/;"	f	typeref:typename:void
+init	chessboard.c	/^void init(){$/;"	f	typeref:typename:void
+init_coor	chessboard.c	/^void init_coor(){$/;"	f	typeref:typename:void
+init_gobang_board	chessboard.c	/^void init_gobang_board(){$/;"	f	typeref:typename:void
+input_key	player.c	/^char input_key;$/;"	v	typeref:typename:char
+is_coor_illegal	chessboard.c	/^int is_coor_illegal(coordinate c){$/;"	f	typeref:typename:int
+left_oblique	referee.c	/^	enum test_direction {horizontal,vertical,left_oblique,right_oblique};$/;"	e	enum:win_test::test_direction	file:
+list_size	declare.h	/^	int list_size;$/;"	m	struct:Gobang	typeref:typename:int
+lo_test	referee.c	/^void lo_test(){$/;"	f	typeref:typename:void
+main	gx.c	/^int main(){$/;"	f	typeref:typename:int
+main	main.c	/^int main(){$/;"	f	typeref:typename:int
+main.o	Makefile	/^main.o : main.c$/;"	t
+octopus_find	player.c	/^void octopus_find(struct restriant r1,struct restriant r2,hcw* h){$/;"	f	typeref:typename:void
+oldt	chessboard.c	/^static   struct  termios oldt;$/;"	v	typeref:struct:termios	file:
+over_test	referee.c	/^int over_test(){$/;"	f	typeref:typename:int
+p	player.c	/^	int p;$/;"	m	struct:restriant	typeref:typename:int	file:
+p_n	player.c	/^	int p_n;$/;"	m	struct:restriant	typeref:typename:int	file:
+piece_list	declare.h	/^}piece_list;$/;"	t	typeref:struct:Piece_list
+player.o	Makefile	/^player.o : player.c$/;"	t
+plist	declare.h	/^	piece_list plist[PIECE_LIST_MAX_SIZE];$/;"	m	struct:Gobang	typeref:typename:piece_list[]
+print_index	chessboard.c	/^void print_index(){$/;"	f	typeref:typename:void
+print_winner	referee.c	/^void print_winner(){$/;"	f	typeref:typename:void
+process_direction	chessboard.c	/^void process_direction(){$/;"	f	typeref:typename:void
+quit	player.c	/^int quit;$/;"	v	typeref:typename:int
+random_play	player.c	/^coordinate random_play(){$/;"	f	typeref:typename:coordinate
+referee.o	Makefile	/^referee.o : referee.c$/;"	t
+restore_terminal_settings	chessboard.c	/^void  restore_terminal_settings(void)$/;"	f	typeref:typename:void
+restriant	player.c	/^struct restriant{$/;"	s	file:
+right_oblique	referee.c	/^	enum test_direction {horizontal,vertical,left_oblique,right_oblique};$/;"	e	enum:win_test::test_direction	file:
+ro_test	referee.c	/^void ro_test(){$/;"	f	typeref:typename:void
+rookie	player.c	/^coordinate rookie(){$/;"	f	typeref:typename:coordinate
+set_chessboard_tag	chessboard.c	/^void set_chessboard_tag(int x,int y){$/;"	f	typeref:typename:void
+set_cur_player	player.c	/^void set_cur_player(int player){$/;"	f	typeref:typename:void
+state	declare.h	/^	int state;$/;"	m	struct:Piece_list	typeref:typename:int
+test_direction	referee.c	/^	enum test_direction {horizontal,vertical,left_oblique,right_oblique};$/;"	g	function:win_test	file:
+test_final_coor	player.c	/^int test_final_coor(coordinate c){$/;"	f	typeref:typename:int
+through_decision_table	player.c	/^hcw through_decision_table(){$/;"	f	typeref:typename:hcw
+vertical	referee.c	/^	enum test_direction {horizontal,vertical,left_oblique,right_oblique};$/;"	e	enum:win_test::test_direction	file:
+vertical_test	referee.c	/^void vertical_test(){$/;"	f	typeref:typename:void
+weight	player.c	/^	int weight;$/;"	m	struct:HCW	typeref:typename:int	file:
+win_test	referee.c	/^void win_test(){$/;"	f	typeref:typename:void
+winner	referee.c	/^int winner;$/;"	v	typeref:typename:int
+winner_coor	referee.c	/^coordinate winner_coor[5];$/;"	v	typeref:typename:coordinate[5]
+x	declare.h	/^	int x;$/;"	m	struct:Coordinate	typeref:typename:int
+y	declare.h	/^	int y;$/;"	m	struct:Coordinate	typeref:typename:int
